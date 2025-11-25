@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ef0fbdf49804a32be2a38af2129ca6, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  characters:
+  - id: default
+    icon: {fileID: 21300000, guid: 1a6c59869bc044d2cb99c6c65f9e22fa, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 79979f74481f54d30aeac95215146d62, type: 3}
+    price: 0
+  - id: 2
+    icon: {fileID: 21300000, guid: b3d6dc42bff5346e785da4f02a2dbbee, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 2fff43a3926b5467daf732081aa36781, type: 3}
+    price: 100
+  - id: 3
+    icon: {fileID: 21300000, guid: 4c5be9b455ac3454f9a0857facf230eb, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 9c2136a0e93f249f8a71fa2476040ced, type: 3}
+    price: 250
+  - id: 4
+    icon: {fileID: 21300000, guid: c21ff0967e40f4878932485b9ec83374, type: 3}
+    prefab: {fileID: 919132149155446097, guid: d88c3c2b7b41e4dcc9bd0e98d938c7ea, type: 3}
+    price: 300
+  - id: 5
+    icon: {fileID: 21300000, guid: eefa2c0cf7a98412f8d4226644c5f75e, type: 3}
+    prefab: {fileID: 919132149155446097, guid: af0f07f27a32f4efe84dbf7ef5d810bb, type: 3}
+    price: 300
+  - id: 11
+    icon: {fileID: 21300000, guid: df9c5a3bfca7a40bdba1823ac202d709, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 849e20e1c67e548579b926d88a07d537, type: 3}
+    price: 300
+  - id: 12
+    icon: {fileID: 21300000, guid: 7b2ecb2c726a443afa500ed47346e758, type: 3}
+    prefab: {fileID: 919132149155446097, guid: eecff2eb4bc834b2aaea5aa4632eab99, type: 3}
+    price: 300
+  - id: 13
+    icon: {fileID: 21300000, guid: db2a1ce5653e8459ab4bfee5c4a83849, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 379118a804f6a4a679bbaade0f3c7b08, type: 3}
+    price: 300
+  - id: 14
+    icon: {fileID: 21300000, guid: 9bf3d6d0a07a849af898cda9d73c9cae, type: 3}
+    prefab: {fileID: 919132149155446097, guid: d950b19d5fa104af3a91fc2cef7b6404, type: 3}
+    price: 300
+  - id: 15
+    icon: {fileID: 21300000, guid: 9fa3951877e594b7682b3d7dbb78657e, type: 3}
+    prefab: {fileID: 919132149155446097, guid: c25f2bad5d1c3458687a69feda72ab83, type: 3}
+    price: 300
+  - id: 16
+    icon: {fileID: 21300000, guid: d29df94ae5f31482a9fcafa5c24f2ebd, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 3ae9756b94fd94594b0e62e27d1d1d3d, type: 3}
+    price: 300
+  - id: 17
+    icon: {fileID: 21300000, guid: e2400291ad5a540f99a4ac84884695b0, type: 3}
+    prefab: {fileID: 919132149155446097, guid: ddba19b65a2254f5e91eeead595a0dfe, type: 3}
+    price: 300
+  - id: 18
+    icon: {fileID: 21300000, guid: 7b8007e902cae4b8dbe9bd8b587d0796, type: 3}
+    prefab: {fileID: 919132149155446097, guid: ce6bc22bb28814eddaaae8d341be784b, type: 3}
+    price: 300
+  - id: 19
+    icon: {fileID: 21300000, guid: c11e33185a2f848f9a5dddceedd29329, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 654707ef9a29a40f4963ec333367940c, type: 3}
+    price: 300
+  - id: 20
+    icon: {fileID: 21300000, guid: 9c79a6ffde1b241c4be975b39422666e, type: 3}
+    prefab: {fileID: 919132149155446097, guid: 62715fe66696c46ac920d70040c04946, type: 3}
+    price: 300
