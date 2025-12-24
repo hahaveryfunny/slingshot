@@ -13,11 +13,12 @@ This repository contains a **fully playable game**, not a mechanic or tech demo.
 - Multiple object / target types  
 - Upgrade and progression system  
 - Market-style upgrade UI  
-- Designed with mobile-style controls in mind  
-
+- Designed with mobile-style controls in mind
+  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2c3bfb0c-6e5c-44ae-b7ed-ed7cdb85bdb5" width="256">
+  <img src="slingshot.gif" width="256">
 </p>
+
 ---
 
 ## ✨ Systems Implemented
