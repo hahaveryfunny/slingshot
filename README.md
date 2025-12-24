@@ -1,98 +1,69 @@
 # 🎯 Slingshot Game (Unity)
 
-A **complete, playable Unity game** built around a **slingshot-based core mechanic**, progression systems, and a simple economy loop.
+A **complete Unity game** built around a **slingshot-based core mechanic**, progression systems, and a simple economy loop.
 
-This project was created **before adopting an event-driven architecture**, with the explicit goal of answering one question:
-
-> **“Can I fully finish and ship a game-sized project?”**
-
-The answer was yes — this repository represents that milestone.
+This repository contains a **fully playable game**, not a mechanic or tech demo.
 
 ---
 
 ## 🕹️ Gameplay Overview
 
-- Slingshot aiming and shooting mechanic
-- Physics-based projectile interactions
-- Multiple object / target types
-- Upgrade and progression system
-- Market-style upgrade UI
-- Designed with mobile-style controls in mind
+- Slingshot aiming and shooting mechanic  
+- Physics-based projectile interactions  
+- Multiple object / target types  
+- Upgrade and progression system  
+- Market-style upgrade UI  
+- Designed with mobile-style controls in mind  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2c3bfb0c-6e5c-44ae-b7ed-ed7cdb85bdb5" width="256">
 </p>
-
 ---
 
 ## ✨ Systems Implemented
 
-- Slingshot input & release logic
-- Projectile physics and collision handling
-- Basic level / encounter flow
-- Upgrade & progression system
-- Game state management
-- UI for gameplay and upgrades
-- Replayable gameplay loop
-
-This is a **full game**, not a mechanic demo.
+- Slingshot input and release logic  
+- Projectile physics and collision handling  
+- Level / encounter flow  
+- Upgrade and progression logic  
+- Game state management  
+- Gameplay and upgrade UI  
+- Replayable gameplay loop  
 
 ---
 
 ## 🧠 Technical Context
 
 - Built using **Unity + C#**
-- Core systems are coordinated primarily via **Singleton-style managers**
-- This architecture was chosen intentionally at the time to:
-  - Reduce complexity
-  - Focus on finishing the project end-to-end
-  - Avoid premature abstraction
+- Core systems are coordinated via **Singleton-style managers**
+- Architecture reflects an earlier stage focused on completing a full game loop
 
 ---
 
-## ⚖️ Design & Architecture Notes
+## ⚖️ Architecture Overview
 
-### Singleton-Based Architecture
-
-**Why it was used**
-- Clear global access to core systems
-- Faster iteration during early development
-- Simpler mental model while focusing on completion
-
-**Trade-offs**
-- Tighter coupling between systems
-- Harder to extend cleanly at scale
-- Less flexible than event-driven approaches
-
-After completing this project, later repositories in this profile move toward:
-- Event-driven communication
-- More modular system boundaries
-- Reduced reliance on global state
-
-This repository is included to show **project completion first, architectural refinement later**.
+- Global managers used for game state, progression, and UI
+- Direct system access prioritized over abstraction
+- Later projects in this profile explore more modular and event-driven approaches
 
 ---
 
 ## 📌 What This Project Demonstrates
 
-- Ability to **finish a complete game**, not just prototypes
-- Managing multiple gameplay systems in a single project
-- Understanding of progression and player feedback loops
-- Conscious architectural decisions based on development goals
-- Clear learning progression across projects
+- Completion of a full game rather than isolated prototypes  
+- Integration of multiple gameplay systems in a single project  
+- Implementation of progression and upgrade loops  
+- Practical Unity development beyond single-mechanic demos  
 
 ---
 
 ## 📈 Position in This Portfolio
 
-This is the **earliest complete project** in this GitHub profile.
+This is the **earliest complete game project** in this GitHub profile.
 
-More recent projects demonstrate:
-- Event-based architectures
-- Cleaner decoupling between systems
-- Reusable gameplay modules
-- Greater focus on scalability and maintainability
+More recent repositories focus on:
+- Modular architectures  
+- Event-based communication  
+- Reusable gameplay systems  
 
-This project remains important as proof of **end-to-end execution**.
-
-
+This project is included as an example of **end-to-end game development**.
