@@ -19,7 +19,7 @@ The answer was yes — this repository represents that milestone.
 - Market-style upgrade UI
 - Designed with mobile-style controls in mind
 
-![Image](https://github.com/user-attachments/assets/2c3bfb0c-6e5c-44ae-b7ed-ed7cdb85bdb5)
+<img src="https://github.com/user-attachments/assets/2c3bfb0c-6e5c-44ae-b7ed-ed7cdb85bdb5" width="400">
 
 ---
 
